@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1DA39436A87A495A8FF8C203 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6B20C17752BA4B49B5208CA0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				22F220A87D9210DA0EF95559 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				87676AF4379B4F49B249D855 /* PBXTargetDependency */,
+				F658305A4D7B47FEB42D6CA7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4EECB93DBD4D4DB4B6DF09C8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99DDDD9D40074CDFA0C5000F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8E624A85D042DCE246EADC4C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		38FB3B30D63B4740AA76FBF4 /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 88EFD118CF824EF3816ACF34 /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */; };
+		F80E545C81E842C48D919E44 /* /Users/enil/Desktop/Projects CMake/L9/main.cpp */ = {isa = PBXBuildFile; fileRef = A869C306E6BF4D77B26381B4 /* /Users/enil/Desktop/Projects CMake/L9/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		427EF6D254F8447BA65AE446 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AA3CCA2A95934F64A15C8095 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B987F4D73CA040FEB3BBC0ED /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F60C758B5074426DB2C37FF6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		33C50A6951504919A98F9B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2844E123B59642E19749CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EECB93DBD4D4DB4B6DF09C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		AED2485F43874393A5285FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2844E123B59642E19749CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EECB93DBD4D4DB4B6DF09C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		F691F2B925BF45D5A57BC27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2844E123B59642E19749CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D85641A7DB0447DAA553A35;
+			remoteInfo = HelloSFML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F7158287F054382B0083B8F /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		781334FBA5AC4C639D620D48 /* HelloSFML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HelloSFML; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFD118CF824EF3816ACF34 /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A869C306E6BF4D77B26381B4 /* /Users/enil/Desktop/Projects CMake/L9/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EEC2D2D3D84B72A0A860BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEF4F14573E4C428285B66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				781334FBA5AC4C639D620D48 /* HelloSFML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3073E67EF6C34B62806E22D8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3FC99B2D53D7446FABD6B2A8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A869C306E6BF4D77B26381B4 /* /Users/enil/Desktop/Projects CMake/L9/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4D8BBCE3D87F40FABB9A98C7 /* HelloSFML */ = {
+			isa = PBXGroup;
+			children = (
+				3FC99B2D53D7446FABD6B2A8 /* Source Files */,
+				88EFD118CF824EF3816ACF34 /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */,
+			);
+			name = HelloSFML;
+			sourceTree = "<group>";
+		};
+		5B4FB670B6FB432EA19E89AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5E83E92A1E41F2865792DF = {
+			isa = PBXGroup;
+			children = (
+				4D8BBCE3D87F40FABB9A98C7 /* HelloSFML */,
+				D19C980D7C604A32A67E1E61 /* ALL_BUILD */,
+				0CEF4F14573E4C428285B66B /* Products */,
+				5B4FB670B6FB432EA19E89AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D19C980D7C604A32A67E1E61 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3073E67EF6C34B62806E22D8 /* CMake Rules */,
+				4F7158287F054382B0083B8F /* /Users/enil/Desktop/Projects CMake/L9/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D85641A7DB0447DAA553A35 /* HelloSFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0810F840C8541D8B31DE41D /* Build configuration list for PBXNativeTarget "HelloSFML" */;
+			buildPhases = (
+				404A5B4C5669412ABCDA06DF /* Sources */,
+				83EEC2D2D3D84B72A0A860BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A220C7AA5B644F838DF1B0CC /* PBXTargetDependency */,
+			);
+			name = HelloSFML;
+			productName = HelloSFML;
+			productReference = 781334FBA5AC4C639D620D48 /* HelloSFML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2844E123B59642E19749CEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = D69BA6EE570143BD893E06E2 /* Build configuration list for PBXProject "HelloSFML" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				427EF6D254F8447BA65AE446 /* Debug */,
+				B987F4D73CA040FEB3BBC0ED /* Release */,
+				F60C758B5074426DB2C37FF6 /* MinSizeRel */,
+				AA3CCA2A95934F64A15C8095 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7B5E83E92A1E41F2865792DF;
+			projectDirPath = "/Users/enil/Desktop/Projects CMake/L9";
+			projectRoot = "";
+			targets = (
+				1DA39436A87A495A8FF8C203 /* ALL_BUILD */,
+				1D85641A7DB0447DAA553A35 /* HelloSFML */,
+				4EECB93DBD4D4DB4B6DF09C8 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F220A87D9210DA0EF95559 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/enil/Desktop/LabGotov/Lab9/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8E624A85D042DCE246EADC4C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/enil/Desktop/LabGotov/Lab9/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  make -f /Users/enil/Desktop/LabGotov/Lab9/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  make -f /Users/enil/Desktop/LabGotov/Lab9/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  make -f /Users/enil/Desktop/LabGotov/Lab9/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/enil/Desktop/LabGotov/Lab9
+  make -f /Users/enil/Desktop/LabGotov/Lab9/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404A5B4C5669412ABCDA06DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80E545C81E842C48D919E44 /* /Users/enil/Desktop/Projects CMake/L9/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87676AF4379B4F49B249D855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D85641A7DB0447DAA553A35 /* HelloSFML */;
+			targetProxy = F691F2B925BF45D5A57BC27C /* PBXContainerItemProxy */;
+		};
+		A220C7AA5B644F838DF1B0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EECB93DBD4D4DB4B6DF09C8 /* ZERO_CHECK */;
+			targetProxy = AED2485F43874393A5285FD8 /* PBXContainerItemProxy */;
+		};
+		F658305A4D7B47FEB42D6CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EECB93DBD4D4DB4B6DF09C8 /* ZERO_CHECK */;
+			targetProxy = 33C50A6951504919A98F9B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C0CBE47F5A24ACAB2C4BB79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9/build;
+			};
+			name = RelWithDebInfo;
+		};
+		0D84C1454D794B8E818E7E44 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9/build;
+			};
+			name = MinSizeRel;
+		};
+		1A1C76DC6B33433CB492EB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9/build;
+			};
+			name = Release;
+		};
+		1F4BB295C8044BF4B16BE864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9/build;
+			};
+			name = Debug;
+		};
+		3CA690095603491B988F02CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework sfml-graphics","-framework sfml-audio","-framework sfml-network","-framework sfml-window","-framework sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HelloSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4560B1A41F6243A2BB61A659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11    ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework sfml-graphics","-framework sfml-audio","-framework sfml-network","-framework sfml-window","-framework sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HelloSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		56007C42B5DE414DAC1E3C82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		756288F784474CAAA0379B48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework sfml-graphics","-framework sfml-audio","-framework sfml-network","-framework sfml-window","-framework sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HelloSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		765A41CBD2E54CC69DA30B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7ADAD422C6EB4EBAA3C74C2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		81A230E1AD624B2A9F09FA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9147555A8E5445A29B7E3DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B7EA7AD5322E4BB1B622F394 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Library/Frameworks/.,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11        -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework sfml-graphics","-framework sfml-audio","-framework sfml-network","-framework sfml-window","-framework sfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HelloSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BE0860EAF85E49DAB55D27D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E60EB528E59545ED8A9AF885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F63745D150BD4E0E91D43E41 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/enil/Desktop/LabGotov/Lab9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B20C17752BA4B49B5208CA0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A230E1AD624B2A9F09FA78 /* Debug */,
+				765A41CBD2E54CC69DA30B48 /* Release */,
+				56007C42B5DE414DAC1E3C82 /* MinSizeRel */,
+				BE0860EAF85E49DAB55D27D5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99DDDD9D40074CDFA0C5000F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9147555A8E5445A29B7E3DBA /* Debug */,
+				E60EB528E59545ED8A9AF885 /* Release */,
+				7ADAD422C6EB4EBAA3C74C2E /* MinSizeRel */,
+				F63745D150BD4E0E91D43E41 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0810F840C8541D8B31DE41D /* Build configuration list for PBXNativeTarget "HelloSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4560B1A41F6243A2BB61A659 /* Debug */,
+				3CA690095603491B988F02CD /* Release */,
+				756288F784474CAAA0379B48 /* MinSizeRel */,
+				B7EA7AD5322E4BB1B622F394 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D69BA6EE570143BD893E06E2 /* Build configuration list for PBXProject "HelloSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4BB295C8044BF4B16BE864 /* Debug */,
+				1A1C76DC6B33433CB492EB99 /* Release */,
+				0D84C1454D794B8E818E7E44 /* MinSizeRel */,
+				0C0CBE47F5A24ACAB2C4BB79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2844E123B59642E19749CEED /* Project object */;
+}
